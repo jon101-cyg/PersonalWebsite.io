@@ -73,6 +73,6 @@ footer{
     color: white;
     text-align: center;
     position: static;
-    padding: 0.75rem 0;
-    margin-top: 1.5rem;
+    width: 100%;
 }
+
