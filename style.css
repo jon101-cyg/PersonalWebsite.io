@@ -1,9 +1,9 @@
 .main {
     display:flex;
     background-color: pink;
-    padding: 25px;
-    margin: 25px;
-    border-radius: 30px;
+    padding: 10%;
+    margin: 10%;
+    border-radius: 15%;
     outline: 1px solid black;
     color: black;
 }
