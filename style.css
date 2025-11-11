@@ -1,0 +1,76 @@
+.main {
+    display:flex;
+    background-color: pink;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 30px;
+    outline: 1px solid black;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+.vertical {
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+}
+.myname {
+    margin: 20px;
+    font-size: 300%;
+}
+#information li{
+    background-color: hotpink;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px;    
+}
+
+li {
+    list-style: none;
+    
+}
+.titles {
+    background-color: hotpink;
+    border-radius: 20px;
+    padding: 10px;    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    padding: 100px; 
+     margin: 50px;
+    background-color: hotpink;
+    color:cornsilk;
+}
+
+.foto {
+    margin: 40px;
+    width: 450px;
+    height: 500px;
+    outline: 5px dashed black;
+    filter: blur(5px);
+    transition: filter 0.5s ease;
+}
+.foto:hover {
+    filter: none; 
+}
+
+.category {
+    background-color: black;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
